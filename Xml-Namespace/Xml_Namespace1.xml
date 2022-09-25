@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <h:table xmlns:h="https:/RandomLink">
+    <h:tr>
+        <h:td>Maggie</h:td>
+        <h:td>Coffee</h:td>
+    </h:tr>
+</h:table>
+<f:table xmlns:f="https:/RandomLink">
+    <f:tr>
+        <f:td>Chocolate</f:td>
+        <f:td>Lays</f:td>
+    </f:tr>
+</f:table>
+</root>

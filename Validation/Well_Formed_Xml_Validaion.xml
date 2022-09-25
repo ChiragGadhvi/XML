@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data [
+    <!ELEMENT data (name,address,mobile)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT mobile (#PCDATA)>
+]>
+<data>
+    <name>Chirag Gadhvi</name>
+    <address>Kutch</address>
+    <mobile>7995972862</mobile>
+</data>

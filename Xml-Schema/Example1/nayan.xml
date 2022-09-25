@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "nayan.dtd">
+<students>
+    <student>
+        <name>Chirag Gadhvi</name>
+        <address>Kutch</address>
+        <age>19</age>
+        <marks>89</marks>
+    </student>
+</students>

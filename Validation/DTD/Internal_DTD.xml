@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student [
+    <!ELEMENT student (name,address,age,marks)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT marks (#PCDATA)>
+]>
+<student>
+    <name>Chirag Gadhvi</name>
+    <address>Kutch</address>
+    <age>19</age>
+    <marks>90</marks>
+</student>

@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <p id="chirag"></p>
+        <script>
+            var a,p,xDoc;
+            a = "<students><student>"+
+                // Here using CDATA the name attribute or element is not parsed by the parser!!
+                "<![CDATA[<name>Sanjeev Gadhvi</name>]]>"+
+                "<batch>2022</batch>"+
+                "<age>19</age>"+
+                "</student></students>";
+            p = new DOMParser();
+            xDoc = p.parseFromString(a,"text/xml");
+            document.getElementById("chirag").innerHTML=xDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+            
+        </script>
+    </body>
+</html>

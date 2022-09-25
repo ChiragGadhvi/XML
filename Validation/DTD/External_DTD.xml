@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student SYSTEM "chirag.dtd">
+<student>
+    <name>Chirag Gadhvi</name>
+    <address>Kutch</address>
+    <age>19</age>
+    <marks>90</marks>
+</student>

@@ -1,0 +1,7 @@
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (firstname,lastname,age?,hobbies+,songs*)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+<!ELEMENT songs (#PCDATA)>

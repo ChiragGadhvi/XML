@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:h="http://www.w3.org/TR/html4/"
+      xmlns:f="https://www.w3schools.com/furniture">
+    <h:table>
+        <h:tr>
+            <h:td>Maggie</h:td>
+            <h:td>Coffee</h:td>
+        </h:tr>
+    </h:table>
+    <f:table>
+        <f:tr>
+            <f:td>Chocolate</f:td>
+            <f:td>Lays</f:td>
+        </f:tr>
+    </f:table>
+</root>
+<!-- This key component is used to make table with different preffixes as -->
+<!-- seen above we used preffixes h and f -->
+<!-- and for them to work we had to define them in the xmlns root tag. -->
+<!-- xmlns is xml namespace used to uniquely define elements and attributes. -->

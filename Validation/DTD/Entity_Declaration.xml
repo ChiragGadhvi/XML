@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student[
+<!ENTITY nbsp "&#xA0;">
+<!ENTITY author "Name:Chirag Gadhvi.">
+<!ENTITY course "Computer Science Student!">
+]>
+<student>
+    <name>Chirag Gadhvi</name>
+    <address>Kutch</address>
+    <age>19</age>
+    <footer>&author;&nbsp;&course;</footer>
+</student>

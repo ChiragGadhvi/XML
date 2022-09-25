@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <p id="chirag"></p>
+        <script>
+            var a,p,xDoc;
+            a = "<students><student>"+
+                "<name>Chirag Gadhvi</name>"+
+                "<batch>2022</batch>"+
+                "<age>19</age>"+
+                "<name>Nayan Gadhvi</name>"+
+                "<batch>2022</batch>"+
+                "<age>20</age>"+
+                "<![CDATA[<name>Sanjeev Gadhvi</name>]]>"+
+                "<batch>2022</batch>"+
+                "<age>20</age>"+
+                "</student></students>";
+            p = new DOMParser();
+            xDoc = p.parseFromString(a,"text/xml");
+            document.getElementById("chirag").innerHTML=xDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+            // Prints the value for first name tag (Chirag Gadhvi)
+            document.getElementById("chirag").innerHTML=xDoc.getElementsByTagName("name")[1].childNodes[0].nodeValue;
+            // Prints the value for second name tag (Nayan Gadhvi)
+            document.getElementById("chirag").innerHTML=xDoc.getElementsByTagName("name")[2].childNodes[0].nodeValue;
+
+        </script>
+    </body>
+</html>

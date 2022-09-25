@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<student>
+    <s>
+        <name> Chirag Gadhvi </name>
+        <branch>CSE</branch>
+        <age>19</age>
+        <city>Kutch</city>
+    </s>
+    <s>
+        <name>Nayan Gadhvi</name>
+        <branch>CA</branch>
+        <age> 20</age>
+        <city>Surat</city>
+    </s>
+    <s>
+        <name>Sanjeev Gadhvi</name>
+        <branch>Micro Bsc</branch>
+        <age>22</age>
+        <city>Hyderabad</city>
+    </s>
+    <s>
+        <name>Nanami</name>
+        <branch>IT</branch>
+        <age>19</age>
+        <city> Rajkot </city>
+    </s>
+    <s>
+        <name>Naruto</name>
+        <branch> Civil </branch>
+        <age> 24</age>
+        <city>Konoha</city>
+    </s>
+</student>

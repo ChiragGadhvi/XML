@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <p id="chirag"></p>
+        <script>
+            var a,p,xDoc;
+            a = "<data>"+
+                "<name>Chirag Gadhvi</name>"+
+                "<address>Kutch</address>"+
+                "<mobile>7995972862</mobile>"+
+                "</data>";
+            p = new DOMParser();
+            xDoc = p.parseFromString(a,"text/xml");
+            document.getElementById("chirag").innerHTML=xDoc.getElementsByTagName("mobile")[0].childNodes[0].nodeValue;
+            
+        </script>
+    </body>
+</html>
